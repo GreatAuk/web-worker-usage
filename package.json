@@ -1,6 +1,7 @@
 {
   "name": "web-worker-demo",
   "version": "0.0.0",
+  "homepage": "https://greatauk.github.io/web-worker-demo/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
