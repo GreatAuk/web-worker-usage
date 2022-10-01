@@ -1,0 +1,1 @@
+import{d as e,c as a,a as t,b as o,w as s,u as c,o as n,e as r,R as l}from"./index.380c67ee.js";const p=e({__name:"home",setup(u){return(_,d)=>(n(),a("ul",null,[t("li",null,[o(c(l),{to:"/excel"},{default:s(()=>[r("\u5BFC\u51FA Excel")]),_:1})])]))}});export{p as default};
