@@ -12,6 +12,10 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import("@/views/excel/excel.vue"),
   },
+  {
+    path: "/inline_worker",
+    component: () => import("@/views/inlineWork/index.vue"),
+  },
 ];
 
 const pathBase = import.meta.env.PROD ? "/web-worker-demo/" : undefined;

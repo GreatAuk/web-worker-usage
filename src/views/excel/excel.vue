@@ -62,7 +62,6 @@ const workerExportExcel = async () => {
       dataSource,
     });
     myWorker.onmessage = (e) => {
-      console.log("[65]-index.vue", 11111111);
       resolve(e.data.data);
       myWorker.terminate(); // 关闭worker线程
       loading.value = false;
